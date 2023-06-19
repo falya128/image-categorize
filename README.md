@@ -32,6 +32,7 @@ npm install
 ```powershell
 cp .env.example .env
 php artisan key:generate
+php artisan storage:link
 ```
 
 以下の箇所を変更  
